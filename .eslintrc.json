@@ -30,7 +30,8 @@
     ],
     "ignorePatterns": [
       "dist/",
-      "build/"
-    ]
+      "build/",
+      "button.js"
+        ]
   }
  

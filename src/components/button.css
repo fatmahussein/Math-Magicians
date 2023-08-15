@@ -1,0 +1,11 @@
+.btn-wrapper {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #5a5a5a;
+  color: rgb(20, 20, 20);
+  flex: 1;
+  border-left: 1px solid gray;
+}

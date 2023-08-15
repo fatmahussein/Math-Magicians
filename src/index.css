@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgb(84, 83, 83);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.calc-wrapper {
+  background-color: white;
+  width: 400px;
+  border-radius: 16px;
+}
+
+.row {
+  display: flex;
+  border: 1px solid darkgray;
+}
+
+.last {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}

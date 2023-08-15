@@ -1,6 +1,11 @@
+import './index.css';
+import Calculator from './components/calculator';
+
 function App() {
   return (
-    <div className="App" />
+    <div className="App">
+      <Calculator />
+    </div>
   );
 }
 
