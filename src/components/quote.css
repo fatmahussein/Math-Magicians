@@ -1,0 +1,10 @@
+.container {
+  background-color: rgb(211, 135, 65);
+  width: 400px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.author {
+  color: white;
+}

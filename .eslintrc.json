@@ -33,7 +33,7 @@
       "build/",
       "button.js",
       "calculator.js",
-      "input.js"
+      "input.jsx"
         ]
   }
  
