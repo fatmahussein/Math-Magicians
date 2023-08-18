@@ -9,3 +9,7 @@
   flex: 1;
   border-left: 1px solid gray;
 }
+
+button {
+  border: none;
+}

@@ -31,7 +31,9 @@
     "ignorePatterns": [
       "dist/",
       "build/",
-      "button.js"
+      "button.js",
+      "calculator.js",
+      "input.js"
         ]
   }
  
