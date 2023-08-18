@@ -1,10 +1,10 @@
 import './input.css';
 
-function Input({data}) {
+function Input({ data }) {
   return (
     <div className="input-wrapper">
-    {data}
-         </div>
+      {data}
+    </div>
   );
 }
 

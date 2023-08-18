@@ -12,10 +12,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
+  gap: 2rem;
+  flex-direction: column;
 }
 
 .calc-wrapper {
+  margin-top: 3rem;
   background-color: white;
   width: 400px;
   border-radius: 16px;
