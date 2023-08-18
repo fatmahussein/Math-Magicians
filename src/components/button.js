@@ -1,12 +1,23 @@
 import './button.css';
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function Button({ symbol, color }) {
+function Button({ symbol, color , onClick}) { 
   return (
-    <div className="btn-wrapper" style={{ backgroundColor: color }}>
+    <button className="btn-wrapper" type='button' onClick={onClick} style={{ backgroundColor: color }}>
       {symbol}
-    </div>
+    </button>
   );
 }
+
+Button.propTypes = {
+  label: PropTypes.string.isRequired,
+  onClick: PropTypes.func,
+};
+
+Button.defaultProps = {
+  type: '',
+  onClick: () => {},
+};
 
 export default Button;
