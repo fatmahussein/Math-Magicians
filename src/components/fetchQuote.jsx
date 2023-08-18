@@ -1,31 +1,12 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
 import { useEffect, useState } from 'react';
-import spinLogo from './refresh.svg';
 import './quote.css';
 
 function FetchQuote() {
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(null);
-  // eslint-disable-next-line no-unused-vars
   const [quote, setQuote] = useState([]);
   const apiKey = 't/EcXPkl89lAkR32T8GeKg==aJAPNSSjt4PdbIsU';
   const category = 'life';
-
-  // const fetchQuote = async () => {
-  //   try {
-  //     const response = fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
-  //       headers: {
-  //         'X-Api-Key': apiKey,
-  //       },
-  //     });
-  //     const json = response.json();
-  //     setQuote(json);
-  //   } catch (error) {
-  //     setIsError('Error loading quote, please reload the page to see new quote');
-  //   }
-  //   setIsLoading(false);
-  // };
 
   useEffect(() => {
     fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
