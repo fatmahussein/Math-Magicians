@@ -5,22 +5,14 @@
 }
 
 body {
-  background-color: rgb(84, 83, 83);
-}
-
-.App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  flex-direction: column;
+  background-color: white;
 }
 
 .calc-wrapper {
-  margin-top: 3rem;
   background-color: white;
   width: 400px;
   border-radius: 16px;
+  margin-right: 10rem;
 }
 
 .row {
@@ -31,4 +23,34 @@ body {
 .last {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.cal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.maths {
+  font-size: 22px;
+  display: flex;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+
+.border {
+  border-right: 2px solid black;
+  height: 20px;
 }

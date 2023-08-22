@@ -1,10 +1,22 @@
 .container {
-  background-color: rgb(211, 135, 65);
-  width: 400px;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  align-items: center;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 400;
 }
 
 .author {
-  color: white;
+  color: rgb(11, 10, 10);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 1rem;
 }
