@@ -130,6 +130,10 @@ npm start
 
 - GitHub: [@fatmahussein](https://github.com/fatmahussein)
 
+👤 Kehinde Aminat
+
+- GitHub: [@Armynerh](https://github.com/Armynerh)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
