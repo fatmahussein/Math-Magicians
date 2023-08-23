@@ -1,4 +1,4 @@
-import calculate from './calculate'; 
+import calculate from './calculate';
 
 describe('calculate function', () => {
   it('should handle AC button', () => {
@@ -48,11 +48,10 @@ describe('calculate function', () => {
     };
     const buttonName = '=';
     const result = calculate(obj, buttonName);
-    expect(result.total).toBe('8'); 
+    expect(result.total).toBe('8');
     expect(result.next).toBe(null);
     expect(result.operation).toBe(null);
   });
-
 
   it('should handle +/- button for next', () => {
     const obj = {
@@ -66,7 +65,6 @@ describe('calculate function', () => {
     expect(result.operation).toBe(null);
   });
 
-  
   it('should handle operation button after pressing =', () => {
     const obj = {
       total: '10',
@@ -92,6 +90,4 @@ describe('calculate function', () => {
     expect(result.next).toBe(null);
     expect(result.operation).toBe('-');
   });
-
-
 });
