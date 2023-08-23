@@ -7,6 +7,7 @@ describe('calculate function', () => {
       next: '5',
       operation: '+',
     };
+
     const buttonName = 'AC';
     const result = calculate(obj, buttonName);
     expect(result.total).toBe(null);
