@@ -1,6 +1,4 @@
-import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
-import operate from './operate.js'; // Update the path to your operate.js file
+import operate from './operate';
 
 describe('operate function', () => {
   test('performs addition correctly', () => {
