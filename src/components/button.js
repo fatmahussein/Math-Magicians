@@ -11,7 +11,6 @@ function Button({ symbol, color , onClick}) {
 }
 
 Button.propTypes = {
-  label: PropTypes.string.isRequired,
   onClick: PropTypes.func,
 };
 

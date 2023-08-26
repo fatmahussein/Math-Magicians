@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`quotes components renders loading state correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="author"
+    >
+      <p>
+        Loading...
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
