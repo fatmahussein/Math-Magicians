@@ -4,8 +4,9 @@ import '@testing-library/jest-dom';
 import Calculator from './calculator';
 
 describe('Calculator component', () => {
-  test('renders calculator component properly', () => {
-    render(<Calculator />);
+  test('renders calculator correctly', () => {
+    const { asFragment } = render(<Calculator />);
+    expect(asFragment()).toMatchSnapshot();
   });
 
   test('showcase the initial values correctly', () => {
