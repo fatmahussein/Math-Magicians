@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import CalcPage from './calcpage';
+import CalcPage from './CalcPage';
 
 describe('CalcPage Component', () => {
   it('renders correctly', () => {
